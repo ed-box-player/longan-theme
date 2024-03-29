@@ -2,6 +2,8 @@ description = "Default layout"
 
 [session]
 security = "all"
+
+[googleTracker]
 ==
 <!DOCTYPE html>
 <html>
@@ -18,6 +20,7 @@ security = "all"
         <link href="{{ [
             'assets/less/theme.less'
         ]|theme }}" rel="stylesheet">
+        {% component 'googleTracker' %}
     </head>
     <body>
 
