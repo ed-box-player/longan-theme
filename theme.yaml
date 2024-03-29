@@ -1,9 +1,9 @@
-name: Vanilla
-description: A plain starter template that implements account management, a blog and community forum.
-author: October CMS
-homepage: 'http://octobercms.com'
-code: Vanilla
+name: Longan
+description: 'A plain starter template that implements account management, a blog and community forum.'
+author: 'Winter CMS'
+homepage: 'https://www.wintercms.com'
+code: Longan
 require:
-    - RainLab.User
-    - RainLab.Blog
-    - RainLab.Forum
+    - Winter.User
+    - Winter.Blog
+    - Winter.Forum
